@@ -306,13 +306,7 @@ const getProductsReadyForSale = asyncHandler(async (req, res) => {
 				price,
 				category,
 				hasWarranty,
-				warrantyDurationInSeconds,
-				createdBy,
-				createdAt,
-				updatedAt,
-				brand,
-				sold,
-				isReadyForSale,
+				warrantyDurationInSeconds
 			};
 		} else {
 			return product;
@@ -346,7 +340,7 @@ const updateProductToken = asyncHandler(async (req, res) => {
 		console.log(user.email);
 		const msg = {
 			to: user.email, // Change to your recipient
-			from: "omgawandeofficial9834899149@gmail.com", // Change to your verified sender
+			from: "myuser1234@gmail.com", // Change to your verified sender
 			subject: `Issued Warranty Card For ${product.title}!`,
 			text: `Your purchased product ${product.title} has been issued a digital warranty card, with unique number of ${tId}! Thanks for shopping with us!`,
 		};
