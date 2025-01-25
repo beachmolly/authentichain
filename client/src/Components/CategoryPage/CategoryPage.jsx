@@ -6,10 +6,6 @@ import { ProductCard } from "../UI";
 const CategoryPage = () => {
 	const [categoryProducts, setCategoryProducts] = useState([]);
 
-	// const { search } = useLocation();
-	// const values = queryString.parse(search);
-	// const { category } = values;
-
 	const params = new URLSearchParams(window.location.search);
 	const config = {
 		headers: {
