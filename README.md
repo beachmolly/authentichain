@@ -59,7 +59,7 @@ Warranty claims are processed through the e-Commerce warranty system. The manufa
 
 1. **Receive Verified NFT**: Users receive the verified NFT and its associated product history.
 2. **Manage NFT Details**: Users can view and manage NFT details and history through the frontend interface.
-
+4. **Wallet Interaction**: Users can login with Metamask/ Coinbase Wallets 
 ## User Interface Features
 
 - **Signup/Login**: Account creation and login for sellers and buyers.
